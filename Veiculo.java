@@ -8,10 +8,10 @@ public class Veiculo {
     private Motor motor;
 
     public Veiculo() {
-        this.placa = "";
-        this.marca = "";
-        this.modelo = "";
-        this.cor = "";
+        this.placa = " ";
+        this.marca = " ";
+        this.modelo = " ";
+        this.cor = " ";
         this.velocMax = 0;
         this.qtdRodas = 0;
         this.motor = new Motor();
